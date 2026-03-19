@@ -1,12 +1,10 @@
-import React from 'react';
-import Header from './components/Header';
-import Game from './components/Game';
-import './App.css';
+import Header from "./components/Header.jsx";
+import Game from "./components/Game.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div>
+      <Header gameName="Monster Slayer" />
       <Game />
     </div>
   );
